@@ -12,7 +12,7 @@ const obj = {
 console.log( obj.sing() );
 console.log( obj.singAgain() );
 
-
+// another example
 function importantPerson() {
 	console.log( this.name );
 }
@@ -29,7 +29,6 @@ const obj2 = {
 	importantPerson: importantPerson
 }
 
-
 importantPerson();
 obj1.importantPerson();
-obj2.importantPerson();
+obj2.importantPerson();	
