@@ -25,3 +25,13 @@ console.log(archer);
 const archerHeal = wizard.heal.bind( archer, 7, 1 );
 archerHeal();
 console.log(archer);
+
+
+// Use apply to get the maximun number of an array
+const array = [1,2,3,20,4];
+
+function getMaxNumber( arr ) {
+    return Math.max.apply(null, arr);
+}
+
+console.log( getMaxNumber( array ) );
